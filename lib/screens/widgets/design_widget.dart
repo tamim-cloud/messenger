@@ -16,30 +16,30 @@ class DesignWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
+          //crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Column(
               children: [
                 CircleAvatar(
-                  radius: 35,
+                  radius: 45,
                   backgroundImage: AssetImage(chobi.imagePath),
                 ),
                 Text(
                   chobi.name,
                   style: TextStyle(
-                    fontSize: 17,
+                    fontSize: 22,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
                 ),
               ],
             ),
+            SizedBox(
+              width: 15,
+            ),
           ],
-        ),
-        SizedBox(
-          width: 9,
         ),
       ],
     );

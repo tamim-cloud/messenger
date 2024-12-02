@@ -8,3 +8,16 @@ class Chobi {
     required this.name,
   });
 }
+
+class Chobi2 {
+  final String image;
+  final String title;
+  final String subtitle;
+  final String time;
+  Chobi2({
+    required this.image,
+    required this.title,
+    required this.subtitle,
+    required this.time,
+  });
+}

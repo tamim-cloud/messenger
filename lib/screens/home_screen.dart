@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       body: SafeArea(
+        
         // child: Padding(
         //   padding: EdgeInsets.all(10),
         // child: Column(
